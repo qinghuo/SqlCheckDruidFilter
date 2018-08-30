@@ -1,0 +1,8 @@
+defaultLimit: 100
+failThrowException: false
+addLimit: false
+tableConfigs:
+           - tableName: u_user
+             featureFields: [id,id_number,cert_no]
+           - tableName: u_user_extend
+             featureFields: [user_id]
